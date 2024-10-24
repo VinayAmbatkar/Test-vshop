@@ -159,6 +159,13 @@ const Header = () => {
                       </Link>
                     </div>
                   )}
+ <FaGithub
+                        style={{ fontSize: '30px', cursor: 'pointer', transition: 'transform 0.3s ease' }}
+                        className="github-icons"
+                        onClick={() => window.open('https://github.com/VinayAmbatkar', '_blank')}
+                      />
+
+
                 </div>
 
                 <div className="col-sm-10 d-flex align-items-center part2">
@@ -175,13 +182,13 @@ const Header = () => {
                   </div>
 
                   <div className="part3 d-flex align-items-center ml-auto">
-                    <Tooltip title="Add" arrow>
+                    
                       <FaGithub
                         style={{ fontSize: '30px', cursor: 'pointer', transition: 'transform 0.3s ease' }}
                         className="github-icon"
                         onClick={() => window.open('https://github.com/VinayAmbatkar', '_blank')}
                       />
-                    </Tooltip>
+                    
                   </div>
 
                   <div className="part3 d-flex align-items-center ml-auto">

@@ -297,3 +297,14 @@
 
 @media only screen and (min-width:320px) and (max-width:1100px){
 }
+
+
+@media screen and (max-width: 992px) {
+  .github-icon {
+      display: none; /* Hide all instances of the GitHub icon by default */
+  }
+  .github-icon:first-of-type {
+    display: inline-block;
+    visibility: hidden;
+  }
+}
